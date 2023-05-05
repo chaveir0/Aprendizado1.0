@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(248, 219, 183, 0.89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.principal{
+    background-color: rgb(230, 204, 150);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgba(230, 171, 101, 0.959);
+}
+h2 {
+    color: rgb(177, 152, 123);
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
+.basico {
+    color: rgb(126, 95, 11);
+}
+.intermediario {
+    color: chocolate;
+}

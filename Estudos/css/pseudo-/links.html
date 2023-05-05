@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="noestilo.css">
+    <title>LINK</title>
+    <style>
+        /*
+        # = ID
+        . = CLASS
+        : = PSEUDO-CLASS
+        :: = PSEUDO-ELEMENT
+        > = CLILDREN
+         */
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:visited{
+            color: darkblue;
+        }
+        a:hover{
+            color: rgb(163, 41, 41);
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+            
+        }
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(177, 53, 53);
+        }
+        a::before{
+            content: '[CU]';
+        }
+        .especial{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Persolanlizando links</h1>
+    <ul>
+        <li><a href="https://www.twitch.tv/" class="especial" target="_blank">Repositório GIT</a></li>
+        <li><a href="https://www.netflix.com/browse"target="_blank" >Canal do YT</a></li>
+        <li><a href="https://twitter.com/home" target="_blank">Site curso em vídeo</a> </li>
+    </ul>
+</body>
+</html>

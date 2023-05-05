@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(77, 182, 159);
+    font: normal 15pt Arial;
+    text-align: center;
+}
+header {
+    color: white;
+    padding: 20px;
+    
+}
+section{
+  padding: 17px;
+  margin:auto;
+  background: white;
+  border-radius: 10px;
+  width: 650px;
+  box-shadow: 3px 3px 10px rgb(53, 52, 52);
+  
+}

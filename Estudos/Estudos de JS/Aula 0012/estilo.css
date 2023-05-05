@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+    font: normal 15pt Arial;
+}
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+section{
+    text-align: center;
+    padding: 20px; /*Espaço entre o titulo "header" */
+    margin: auto; /*Alocação da caixa ao centro do campo */
+    background: white;
+    border-radius: 10px; /*borda arredondada*/ 
+    width: 500px; /* tamanho da caixa*/
+    box-shadow: 3px 3px 10px rgb(80, 80, 80); /* Sombra na caixa*/ 
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+}

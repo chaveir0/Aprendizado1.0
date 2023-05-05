@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        div > p {
+            display: none;
+        } /* hover = passar o mouse por cima
+        ">" Filho de uma div*/
+      div:hover > p {
+        display: block;
+        background-color: red;
+      }
+
+        div :hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div> Passa o mouse aqui!
+        <p>Texto escondido.........</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qual o seu país?</h1>
+    Em que país você vive fale para mim: <input type="text" name="texto" id="texto">
+    <input type="button" onclick="verificar()" value="verifique">
+    <div id="res">
+    </div>
+    <script>
+        function verifique(){
+            var texto = document.getElementById('id=texto')
+            var res = document.querySelector('input#res')
+            var pais = Brasil
+            res.innerHTML = `<p>Vivendo em ${pais}</p>`
+            if (pais != 'Brasil') {
+                res.innerHTML += `<p>Você é estrangeiro</p>`
+            }else {
+                res.innerHTML +=`<p> Você é brasileiro</p>`
+            }
+        }
+    </script>
+</body>
+
+</html>
